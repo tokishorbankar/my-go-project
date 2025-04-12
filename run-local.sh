@@ -5,7 +5,7 @@ set -e
 
 # Build the Go application
 echo "Building the Go application..."
-go build -o my-go-app ./cmd
+go build -o my-go-app ./src
 
 # Run the built application
 echo "Running the Go application..."

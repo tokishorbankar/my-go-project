@@ -6,7 +6,7 @@ This is a simple Go project that demonstrates the structure of a Go application 
 
 ```sh
 my-go-project
-├── cmd
+├── src
 │   └── main.go        # Entry point of the application
 ├── pkg
 │   └── utils
@@ -28,7 +28,7 @@ Make sure you have Go installed on your machine. You can download it from [the o
 To build the project, navigate to the project directory and run:
 
 ```sh
-go build -o my-go-app ./cmd
+go build -o my-go-app ./src
 ```
 
 ### Running the Application
