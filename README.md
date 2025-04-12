@@ -28,24 +28,11 @@ Make sure you have Go installed on your machine. You can download it from [the o
 To build the project, navigate to the project directory and run:
 
 ```sh
-go build -o my-go-app ./src
+sh local-build.sh
 ```
 
-### Running the Application
-
-After building, you can run the application with:
+### Running application in locally
 
 ```sh
-./my-go-app 1 1
+./my-application
 ```
-
-### Usage
-
-This project currently includes utility functions for basic arithmetic operations. You can extend the functionality by adding more utilities in the `pkg/utils` directory.
-
-#### Locally
-
-```sh
-sh run-local.sh
-```
-
